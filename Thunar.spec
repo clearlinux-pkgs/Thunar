@@ -4,7 +4,7 @@
 #
 Name     : Thunar
 Version  : 1.6.10
-Release  : 15
+Release  : 16
 URL      : http://archive.xfce.org/src/xfce/thunar/1.6/Thunar-1.6.10.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/thunar/1.6/Thunar-1.6.10.tar.bz2
 Summary  : A library to create Thunar extensions
@@ -33,6 +33,7 @@ BuildRequires : pkgconfig(libxfce4util-1.0)
 BuildRequires : pkgconfig(libxfconf-0)
 BuildRequires : pkgconfig(sm)
 BuildRequires : sed
+Patch1: 0001-Do-not-display-condescending-root-warning.patch
 
 %description
 What is it?
@@ -63,6 +64,7 @@ Group: Development
 Requires: Thunar-lib
 Requires: Thunar-bin
 Requires: Thunar-data
+Provides: Thunar-devel
 
 %description dev
 dev components for the Thunar package.
@@ -95,12 +97,16 @@ locales components for the Thunar package.
 
 %prep
 %setup -q -n Thunar-1.6.10
+%patch1 -p1
 
 %build
 %configure --disable-static
 make V=1  %{?_smp_mflags}
 
 %check
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
@@ -115,11 +121,6 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot
 %defattr(-,root,root,-)
 /usr/lib64/Thunar/ThunarBulkRename
 /usr/lib64/Thunar/thunar-sendto-email
-/usr/lib64/thunarx-2/thunar-apr.so
-/usr/lib64/thunarx-2/thunar-sbr.so
-/usr/lib64/thunarx-2/thunar-uca.so
-/usr/lib64/thunarx-2/thunar-wallpaper-plugin.so
-/usr/lib64/xfce4/panel/plugins/libthunar-tpa.so
 
 %files bin
 %defattr(-,root,root,-)
@@ -177,6 +178,11 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/*.so.*
+/usr/lib64/thunarx-2/thunar-apr.so
+/usr/lib64/thunarx-2/thunar-sbr.so
+/usr/lib64/thunarx-2/thunar-uca.so
+/usr/lib64/thunarx-2/thunar-wallpaper-plugin.so
+/usr/lib64/xfce4/panel/plugins/libthunar-tpa.so
 
 %files locales -f Thunar.lang 
 %defattr(-,root,root,-)
