@@ -4,7 +4,7 @@
 #
 Name     : Thunar
 Version  : 1.6.11
-Release  : 19
+Release  : 20
 URL      : http://archive.xfce.org/src/xfce/thunar/1.6/Thunar-1.6.11.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/thunar/1.6/Thunar-1.6.11.tar.bz2
 Summary  : A library to create Thunar extensions
