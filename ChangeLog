@@ -1,3 +1,168 @@
+commit bc5ccb17b10409a120ad45807be65d56a0c5eb04
+Author: Pjotr <pjotrvertaalt@gmail.com>
+Date:   Mon Jun 26 12:30:19 2017 +0200
+
+    I18n: Update translation nl (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 2f1aad0beb7635297011cb080bcdf4502bb9daf6
+Author: Pjotr <pjotrvertaalt@gmail.com>
+Date:   Mon Jun 26 00:30:24 2017 +0200
+
+    I18n: Update translation nl (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 1d39355c9296c2bd09768b974b65e5762e97b192
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Jun 22 22:40:52 2017 -0300
+
+    Do not pass NULL to g_file_test
+
+commit 338e6b941740bae24b64d0a99a4cf8677c7656ff
+Author: Theppitak Karoonboonyanan <theppitak@gmail.com>
+Date:   Sun Jun 18 12:30:33 2017 +0200
+
+    I18n: Update translation th (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit b18c660b3f6e357279692555503797790ed91b8e
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Jun 18 06:30:37 2017 +0200
+
+    I18n: Update translation lt (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 5b90d36f94df19e2fb72f62b283ff0b0364c9691
+Author: Pjotr <pjotrvertaalt@gmail.com>
+Date:   Sat Jun 10 12:30:21 2017 +0200
+
+    I18n: Update translation nl (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f522139651c7c29d41c234e9860fab2e80a601c3
+Author: Seong-ho Cho <darkcircle.0426@gmail.com>
+Date:   Sun May 21 06:30:25 2017 +0200
+
+    I18n: Update translation ko (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 43058c2ce5c9552665a7e76bc3090d8edd695414
+Author: Andrzej <andrzejr@xfce.org>
+Date:   Sat May 20 13:51:12 2017 +0100
+
+    Fixed a compilation error with the newest dev panel API.
+
+commit 15d8d49a7fe18845abf6b1a19afcdc05e35a42dd
+Author: Davidmp <medipas@gmail.com>
+Date:   Fri May 5 18:30:20 2017 +0200
+
+    I18n: Update translation ca (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 4dd549db77838c9345f10a72f10e705f8ae327d4
+Author: Viktor Odintsev <zakhams@gmail.com>
+Date:   Thu Apr 13 01:15:53 2017 +0300
+
+    Fix deadlock in mutex causing Thunar to hang (Bug #13481)
+    
+    file_rename_mutex could remain locked due to the return statement
+    in function thunar_file_monitor.
+
+commit 2e8e43b35ae73c13e19faea0be5ff110b8fcaf75
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Apr 13 18:30:33 2017 +0200
+
+    I18n: Update translation lt (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 10770a85aeb8d0ca62baf4ac27cd1e4b8eb4f258
+Author: Xj <xj@wp.pl>
+Date:   Sun Feb 19 01:15:08 2017 +0100
+
+    Add support for Exif:ImageDescription and Exif:UserComment
+
+commit 4feb1d4689bcbd5d4e4658cc9c6c25e3349527bc
+Author: Xosé <xosecalvo@gmail.com>
+Date:   Mon Mar 20 18:30:18 2017 +0100
+
+    I18n: Update translation gl (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ffcbbc86b42a508133a3209d472812cc69c22a7a
+Author: Andrzej <ndrwrdck@gmail.com>
+Date:   Sat Mar 18 14:15:36 2017 +0000
+
+    Switch from XfcePanelImage to GtkImage
+
+commit e542155f76d01f94f50e2e43ec5ec7f3e68c9b1e
+Author: Andrzej <ndrwrdck@gmail.com>
+Date:   Sat Mar 18 13:15:40 2017 +0000
+
+    Bump libxfce4panel version for TPA plugin to 4.9.0
+
+commit 04a2d0c3c590448e7c91321c957352f80f1e7c95
+Author: Pablo Roberto “Jristz” Lezaeta Reyes <prflr88@gmail.com>
+Date:   Mon Mar 13 06:30:17 2017 +0100
+
+    I18n: Update translation es (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit a64105d6a914395a373277e80416fc9cf520ba2b
+Author: Pjotr <pjotrvertaalt@gmail.com>
+Date:   Sat Mar 4 12:30:25 2017 +0100
+
+    I18n: Update translation nl (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 98f6b58c9f496c39b1f70f6800205fd20b5f7a95
+Author: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
+Date:   Mon Feb 27 00:30:18 2017 +0100
+
+    I18n: Update translation ca (100%).
+    
+    738 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 045324d415c3764f6592cd13764df51b03256dfa
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Mon Feb 13 21:53:54 2017 +0100
+
+    Back to development
+
 commit 77a1e955b4a20763dc14ba24f9b2601cc6812c37
 Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
 Date:   Mon Feb 13 21:47:28 2017 +0100
@@ -2529,7 +2694,7 @@ Date:   Tue Apr 7 19:27:12 2015 +0200
     http://docs.xfce.org/xfce/thunar/working-with-files-and-folders
 
 commit 15b0789f96861b95104f27b95828b8ac433fc682
-Merge: 3a53de7 b2012f5
+Merge: 3a53de78 b2012f58
 Author: Harald Judt <h.judt@gmx.at>
 Date:   Sat Apr 18 14:17:39 2015 +0200
 
@@ -4361,7 +4526,7 @@ Date:   Sat Dec 20 18:30:18 2014 +0100
     Transifex (https://www.transifex.com/projects/p/xfce/).
 
 commit f96608c72346fb59567ff568c43f8c3867311fad
-Merge: 5a623a5 9e9da20
+Merge: 5a623a58 9e9da205
 Author: Andrzej <ndrwrdck@gmail.com>
 Date:   Sat Dec 20 00:21:57 2014 +0000
 
@@ -16146,7 +16311,7 @@ Date:   Mon Feb 14 15:01:35 2011 +0100
     Release 1.3.0!
 
 commit 6ebca95f7cd2b2de82057994c7b8239f7cc3b5fb
-Merge: 26d6c13 3415bea
+Merge: 26d6c132 3415bea8
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Mon Feb 14 14:09:15 2011 +0100
 
@@ -19423,7 +19588,7 @@ Date:   Sun Mar 7 13:33:33 2010 +0100
     Rebuild po files.
 
 commit f865af6bd9bc7ac42c6f9371a6c16d1a7ff92bd1
-Merge: 5f3ce87 bb09907
+Merge: 5f3ce87e bb099076
 Author: Nick Schermer <nick@xfce.org>
 Date:   Sun Mar 7 13:32:34 2010 +0100
 
@@ -21230,7 +21395,7 @@ Date:   Sun Aug 23 22:29:38 2009 +0200
     Don't try to load data from the file if the returned length is nul.
 
 commit 52808a85c7e5d393c7189c6b722f824509f9d373
-Merge: d19261c d1ab398
+Merge: d19261c3 d1ab3981
 Author: Nick Schermer <nick@xfce.org>
 Date:   Sun Aug 23 22:12:05 2009 +0200
 
@@ -21355,7 +21520,7 @@ Date:   Fri Aug 21 17:58:21 2009 +0200
     Update .pot and .po files after the big merge.
 
 commit 45faed1e3f3fb38b8789eb430e2edc83f4607307
-Merge: 1f5eed4 391b312
+Merge: 1f5eed40 391b312b
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Fri Aug 21 17:51:29 2009 +0200
 
@@ -21401,7 +21566,7 @@ Date:   Thu Aug 20 03:13:20 2009 +0000
     Transmitted-via: Transifex (translations.xfce.org)
 
 commit 116819a0d9f258df20c76cd336723628a3b5798b
-Merge: bb4871c 2f7bbac
+Merge: bb4871c7 2f7bbac6
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Sun Aug 16 00:38:32 2009 +0200
 
@@ -38781,7 +38946,7 @@ Date:   Wed Jul 20 19:41:31 2005 +0000
     (Old svn revision: 16402)
 
 commit 7b287b2c68596b6c92ebded1d8cbab3787ccdf23
-Merge: d36df4c 5cec398
+Merge: d36df4cd 5cec398f
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Mon Jul 18 20:30:40 2005 +0000
 
