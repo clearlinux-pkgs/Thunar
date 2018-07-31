@@ -1,0 +1,7 @@
+1.8.1
+gobject-introspection-dev
+glibc-bin
+pkgconfig(ice)
+pkgconfig(sm)
+pkgconfig(libxml-2.0)
+perl

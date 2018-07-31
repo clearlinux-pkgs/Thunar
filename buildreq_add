@@ -4,3 +4,6 @@
 #
 libxfce4util-lib
 pcre-dev
+libnotify-dev
+exiv2-dev
+libexif-dev

@@ -1,0 +1,3 @@
+Configure miss: setgroupent
+Configure miss: setpassent
+Configure miss: optional package gudev-1.0 >= 145
