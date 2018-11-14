@@ -4,7 +4,7 @@
 #
 Name     : Thunar
 Version  : 1.8.2
-Release  : 25
+Release  : 26
 URL      : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.2.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.2.tar.bz2
 Summary  : A library to create Thunar extensions
@@ -50,6 +50,7 @@ BuildRequires : pkgconfig(libxfce4ui-1)
 BuildRequires : pkgconfig(libxfce4ui-2)
 BuildRequires : pkgconfig(libxfce4util-1.0)
 BuildRequires : pkgconfig(libxfconf-0)
+BuildRequires : pkgconfig(libxml-2.0)
 BuildRequires : pkgconfig(sm)
 BuildRequires : sed
 
@@ -150,8 +151,8 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1540778059
-%configure --disable-static
+export SOURCE_DATE_EPOCH=1542223774
+%configure --disable-static --disable-introspection
 make  %{?_smp_mflags}
 
 %check
@@ -162,7 +163,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1540778059
+export SOURCE_DATE_EPOCH=1542223774
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Thunar
 cp COPYING %{buildroot}/usr/share/package-licenses/Thunar/COPYING
@@ -186,7 +187,6 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot
 
 %files data
 %defattr(-,root,root,-)
-/usr/lib64/girepository-1.0/Thunarx-3.0.typelib
 /usr/share/Thunar/sendto/thunar-sendto-email.desktop
 /usr/share/applications/Thunar-bulk-rename.desktop
 /usr/share/applications/Thunar-folder-handler.desktop
@@ -194,7 +194,6 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot
 /usr/share/applications/thunar-settings.desktop
 /usr/share/dbus-1/services/org.xfce.FileManager.service
 /usr/share/dbus-1/services/org.xfce.Thunar.service
-/usr/share/gir-1.0/*.gir
 /usr/share/icons/hicolor/128x128/apps/Thunar.png
 /usr/share/icons/hicolor/16x16/apps/Thunar.png
 /usr/share/icons/hicolor/16x16/stock/navigation/stock_folder-copy.png
