@@ -4,7 +4,7 @@
 #
 Name     : Thunar
 Version  : 1.8.3
-Release  : 27
+Release  : 28
 URL      : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.3.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.3.tar.bz2
 Summary  : Modern file manager for Xfce
@@ -19,6 +19,7 @@ Requires: Thunar-man = %{version}-%{release}
 Requires: Thunar-services = %{version}-%{release}
 BuildRequires : docbook-xml
 BuildRequires : exiv2-dev
+BuildRequires : glibc-bin
 BuildRequires : gobject-introspection-dev
 BuildRequires : gtk-doc
 BuildRequires : gtk-doc-dev
@@ -40,6 +41,7 @@ BuildRequires : pkgconfig(gmodule-2.0)
 BuildRequires : pkgconfig(gthread-2.0)
 BuildRequires : pkgconfig(gtk+-2.0)
 BuildRequires : pkgconfig(gtk+-3.0)
+BuildRequires : pkgconfig(ice)
 BuildRequires : pkgconfig(libpng)
 BuildRequires : pkgconfig(libwnck-1.0)
 BuildRequires : pkgconfig(libxfce4kbd-private-3)
@@ -48,6 +50,8 @@ BuildRequires : pkgconfig(libxfce4ui-1)
 BuildRequires : pkgconfig(libxfce4ui-2)
 BuildRequires : pkgconfig(libxfce4util-1.0)
 BuildRequires : pkgconfig(libxfconf-0)
+BuildRequires : pkgconfig(libxml-2.0)
+BuildRequires : pkgconfig(sm)
 BuildRequires : sed
 
 %description
@@ -150,7 +154,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1548430304
+export SOURCE_DATE_EPOCH=1548431696
 %configure --disable-static --disable-introspection
 make  %{?_smp_mflags}
 
@@ -162,7 +166,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1548430304
+export SOURCE_DATE_EPOCH=1548431696
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Thunar
 cp COPYING %{buildroot}/usr/share/package-licenses/Thunar/COPYING
@@ -186,12 +190,12 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot
 
 %files data
 %defattr(-,root,root,-)
+%exclude /usr/share/dbus-1/services/org.freedesktop.FileManager1.service
 /usr/share/Thunar/sendto/thunar-sendto-email.desktop
 /usr/share/applications/Thunar-bulk-rename.desktop
 /usr/share/applications/Thunar-folder-handler.desktop
 /usr/share/applications/Thunar.desktop
 /usr/share/applications/thunar-settings.desktop
-/usr/share/dbus-1/services/org.freedesktop.FileManager1.service
 /usr/share/dbus-1/services/org.xfce.FileManager.service
 /usr/share/dbus-1/services/org.xfce.Thunar.service
 /usr/share/icons/hicolor/128x128/apps/Thunar.png
