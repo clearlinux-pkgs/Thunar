@@ -4,7 +4,7 @@
 #
 Name     : Thunar
 Version  : 1.8.3
-Release  : 28
+Release  : 29
 URL      : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.3.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.3.tar.bz2
 Summary  : Modern file manager for Xfce
@@ -41,6 +41,7 @@ BuildRequires : pkgconfig(gmodule-2.0)
 BuildRequires : pkgconfig(gthread-2.0)
 BuildRequires : pkgconfig(gtk+-2.0)
 BuildRequires : pkgconfig(gtk+-3.0)
+BuildRequires : pkgconfig(gudev-1.0)
 BuildRequires : pkgconfig(ice)
 BuildRequires : pkgconfig(libpng)
 BuildRequires : pkgconfig(libwnck-1.0)
@@ -154,7 +155,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1548431696
+export SOURCE_DATE_EPOCH=1548431818
 %configure --disable-static --disable-introspection
 make  %{?_smp_mflags}
 
@@ -166,7 +167,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1548431696
+export SOURCE_DATE_EPOCH=1548431818
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Thunar
 cp COPYING %{buildroot}/usr/share/package-licenses/Thunar/COPYING
