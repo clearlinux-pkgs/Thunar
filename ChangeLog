@@ -1,3 +1,70 @@
+commit f0c0ab425b9825c975c9de0db94c179395835b28
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sun Jan 27 21:13:04 2019 +0100
+
+    renamed org.freedesktop.FileManager1.service.in to
+     org.xfce.Thunar.FileManager1.service.in to avoid name clashes
+     (Bug #12414)
+
+commit 1300101e50161c7f6b4fa3dd73c9808e5ff27d84
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sun Jan 27 19:04:32 2019 +0100
+
+    Exit when name org.freedesktop.filemanager1 lost on message-dbus
+    (Bug #15088)
+
+commit 380162b997fc246b6a3052d1f18a91f8ab2c1d3d
+Author: Ashraful Islam <rediancool@gmail.com>
+Date:   Sun Jan 27 18:30:57 2019 +0100
+
+    I18n: Update translation bn (80%).
+    
+    614 translated messages, 148 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 761e383e9f0b1b8dabf64dfe5c24e29f61123efe
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Sat Jan 26 18:30:39 2019 +0100
+
+    I18n: Update translation pt (100%).
+    
+    762 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d635689172f3c55eb9828a704cf618cb50be159b
+Author: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
+Date:   Sat Jan 26 12:30:48 2019 +0100
+
+    I18n: Update translation ca (100%).
+    
+    762 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 60906eb306b4d7ea48e54ac69d50bdb6ce2f37dd
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Fri Jan 25 00:30:45 2019 +0100
+
+    I18n: Update translation pt (100%).
+    
+    762 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 69e58b2efa8fc7cef1fc5b1c8b7b6c27ef9a0274
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Thu Jan 24 23:42:46 2019 +0100
+
+    Back to development
+
+commit f36789d3d3fd790ea38621f9be50929c9511555c
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Thu Jan 24 23:33:26 2019 +0100
+
+    Updates for release
+
 commit d73bb5fb601a761744f05c213f70b6cddce889f3
 Author: Alexander Schwinn <alexxcons@xfce.org>
 Date:   Sat Jan 12 21:46:45 2019 +0100
