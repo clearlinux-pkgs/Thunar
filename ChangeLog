@@ -1,3 +1,82 @@
+commit e0ae19598b53f3f3199881fc3481c1a61b9e5965
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Apr 18 22:33:09 2019 -0300
+
+    Fix pathbar to on middle click open folders in new tabs (Bug #15302)
+
+commit 3dc07d3227b2b3ce70d42749d142e57aecea2bfc
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 15:09:11 2019 -0300
+
+    Drop unused code
+
+commit 2da0dac58b71d05a8e724e09cd9018f05637b19b
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 16:48:38 2019 -0300
+
+    Drop unused macros
+
+commit 191064143dbb163f65a5fa1fd526d0c7f1d3af0f
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 13:02:40 2019 -0300
+
+    Fix compiler error -Wcast-function-type (GCC 8)
+
+commit 47e3567a0c4cbbfaa585bda1aa769a3c43c77a16
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 12:43:48 2019 -0300
+
+    Fix g_type_class_add_private is deprecated
+
+commit 400c01a9f35a8b38772d7af6ebb91bc0bd373cba
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 12:43:13 2019 -0300
+
+    Bump glib minimal required version
+
+commit 38763f76c8b84f42dd52e68862e2c0b0dee35e4b
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 12:42:55 2019 -0300
+
+    Fix compiler error -Wcast-function-type (GCC 8)
+
+commit f9c45e09594ce18ad39a80188b64a07c461a8f57
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Wed Dec 5 13:27:51 2018 -0300
+
+    Expand scroll window of file operation progress dialog (Bug #14946)
+
+commit fe9eec8d923d318ab49044724334370bfbbb06d3
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 15:06:35 2019 -0300
+
+    Job is now optional for thunar_io_scan_directory
+    
+    - This fix need to be applied to 4.14 branch too
+    - Fix bug #15200
+
+commit 29dbe436a1dca753e24d6ac32cd955552501492d
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat May 18 00:31:08 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    762 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7b065e05f7b2e04cd8fc03cac3bb604cfbe3fb33
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sat May 18 00:10:41 2019 +0200
+
+    Back to development
+
+commit fab71fe616685dc72bea54bd7b0b12aa65cc3eb8
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sat May 18 00:10:04 2019 +0200
+
+    Updates for release
+
 commit 6d1c39c6a05313f5cd8b4ab7558819ebeec42ab3
 Author: Alexander Schwinn <alexxcons@xfce.org>
 Date:   Fri May 17 23:49:14 2019 +0200
