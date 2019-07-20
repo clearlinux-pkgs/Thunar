@@ -1,3 +1,162 @@
+commit 940bce016f7b75888f19ce48d860433d64caef46
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Fri Jul 19 23:43:43 2019 +0200
+
+    Updates for release
+
+commit 8631b4063bcd668c1f0cbc9809baa788a3ddca59
+Author: Juhani Numminen <juhaninumminen0@gmail.com>
+Date:   Wed Jul 17 12:31:11 2019 +0200
+
+    I18n: Update translation fi (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 11daafd5b46b4b29c7b5d2863e11d6a95f458445
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Wed Jul 17 00:31:16 2019 +0200
+
+    I18n: Update translation fi (99%).
+    
+    760 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 06c0e3eb10dc72dcea072926d5fbbe9936cf5a3e
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Tue Jul 16 15:39:06 2019 -0300
+
+    Do not register "send to" as last used app (Bug #14118)
+    
+    I know this code doesn't look elegant, but it was the best
+    I could think of. Patches are welcome.
+
+commit 21ce4db1c25dbd875adb3d0278724b0ca59e9e1e
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sat Jul 13 18:23:08 2019 -0300
+
+    Update copyright year
+
+commit edd926aecd29ebff2d406add8f0a7717e11a15d7
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sat Jul 13 18:22:52 2019 -0300
+
+    Use https where possible
+
+commit 38e8283841a25dffd63a90a44ce029a53d9aa87c
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:   Sun Jul 14 18:30:58 2019 +0200
+
+    I18n: Update translation kk (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit bf4c333dbca1de6cd384e68a5caff027808a48bd
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sat Jun 29 00:05:03 2019 +0200
+
+    Dont restart the folder monitor on each refresh
+    - Fixes "ghost files after moving files" (Bug #13364)
+
+commit e2ef5e5dcd95d92faea6eb6c548e20b1d0819813
+Author: Theppitak Karoonboonyanan <theppitak@gmail.com>
+Date:   Wed Jul 10 12:30:41 2019 +0200
+
+    I18n: Update translation th (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c480ee7b8f2c26e09dcdd4f4bed240c4d1123e42
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Sun Jul 7 23:25:56 2019 +0200
+
+    Fix XML declaratation in uca.xml (Bug #13623)
+
+commit 201f821661c2e12c58f481d8e9acc9313e233174
+Author: Real School <translator_students@realschool.am>
+Date:   Mon Jul 8 12:31:21 2019 +0200
+
+    I18n: Add new translation hy (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b8cfc683365dc1fa7044a06327fb296f960358f9
+Author: Magnus Berg <skrap@motbild.se>
+Date:   Sun Jul 7 18:30:35 2019 +0200
+
+    I18n: Update translation sv (99%).
+    
+    760 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit dc7d18180cdaaca45cd49bc4ced8a26b2acaa706
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sat Jul 6 16:16:42 2019 -0300
+
+    Always show the executable checkbox (Bug #15605)
+
+commit dab96b3f68c6fb8dafd35a2ef6efa875bb955e6d
+Author: Evangelos Foutras <evangelos@foutrelis.com>
+Date:   Tue Jul 2 01:24:10 2019 +0300
+
+    Get rid of bitwise AND in logical expression (Bug #15352)
+    
+    Bitwise AND seems to produce the correct result but it's not the right
+    way to go about it. Better to be less fancy and use the proper boolean
+    operator.
+    
+    Fixes my previous commit e0f50533edc8abcff0e478f423e290c786ce82ed.
+
+commit 9ad27be6e40cec1372f9ec1eee9b3262fb4c18bb
+Author: Evangelos Foutras <evangelos@foutrelis.com>
+Date:   Sun Jun 30 14:14:49 2019 +0300
+
+    Replace Trash action with Delete as needed (Bug #15352)
+    
+    We keep the grayed out "Move to Trash" action in directories which are
+    not writable, but otherwise we show the "Delete" action for files that
+    cannot be trashed.
+    
+    Regardless of the "Move to Trash" action's visibility, it should remain
+    sensitive for keyboard shortcuts to work (i.e.: pressing the Delete key).
+    
+    Follow-up fix for https://bugzilla.xfce.org/show_bug.cgi?id=15352.
+
+commit f24e4e97457795ec2266d1acd5ce4560ed8e81e3
+Author: Andre Miranda <andre42m@gmail.com>
+Date:   Sun Jun 30 06:31:09 2019 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 1f74bd58d581de3fd93c004d4bfe284e0a2c252c
+Author: Serdar Sağlam <teknomobil@msn.com>
+Date:   Sat Jun 29 18:30:44 2019 +0200
+
+    I18n: Update translation tr (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b1170adf293d47f76446a3aa3b6873d9b83523f5
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sat Jun 29 00:27:20 2019 +0200
+
+    Back to development
+
 commit 23aabd7a93feec6cc928afdc1832ba2223280e5b
 Author: Alexander Schwinn <alexxcons@xfce.org>
 Date:   Sat Jun 29 00:13:33 2019 +0200
