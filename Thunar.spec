@@ -4,7 +4,7 @@
 #
 Name     : Thunar
 Version  : 1.8.9
-Release  : 35
+Release  : 37
 URL      : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.9.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.9.tar.bz2
 Summary  : A library to create Thunar extensions
@@ -17,11 +17,14 @@ Requires: Thunar-license = %{version}-%{release}
 Requires: Thunar-locales = %{version}-%{release}
 Requires: Thunar-man = %{version}-%{release}
 Requires: Thunar-services = %{version}-%{release}
+Requires: gvfs
 BuildRequires : docbook-xml
 BuildRequires : exiv2-dev
+BuildRequires : glibc-bin
 BuildRequires : gobject-introspection-dev
 BuildRequires : gtk-doc
 BuildRequires : gtk-doc-dev
+BuildRequires : gvfs
 BuildRequires : intltool
 BuildRequires : libexif-dev
 BuildRequires : libnotify-dev
@@ -41,6 +44,7 @@ BuildRequires : pkgconfig(gthread-2.0)
 BuildRequires : pkgconfig(gtk+-2.0)
 BuildRequires : pkgconfig(gtk+-3.0)
 BuildRequires : pkgconfig(gudev-1.0)
+BuildRequires : pkgconfig(ice)
 BuildRequires : pkgconfig(libpng)
 BuildRequires : pkgconfig(libwnck-1.0)
 BuildRequires : pkgconfig(libxfce4kbd-private-3)
@@ -49,6 +53,8 @@ BuildRequires : pkgconfig(libxfce4ui-1)
 BuildRequires : pkgconfig(libxfce4ui-2)
 BuildRequires : pkgconfig(libxfce4util-1.0)
 BuildRequires : pkgconfig(libxfconf-0)
+BuildRequires : pkgconfig(libxml-2.0)
+BuildRequires : pkgconfig(sm)
 BuildRequires : sed
 
 %description
@@ -148,7 +154,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1565572190
+export SOURCE_DATE_EPOCH=1565644140
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -168,7 +174,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1565572190
+export SOURCE_DATE_EPOCH=1565644140
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Thunar
 cp COPYING %{buildroot}/usr/share/package-licenses/Thunar/COPYING
