@@ -4,7 +4,7 @@
 #
 Name     : Thunar
 Version  : 1.8.9
-Release  : 37
+Release  : 38
 URL      : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.9.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/thunar/1.8/Thunar-1.8.9.tar.bz2
 Summary  : A library to create Thunar extensions
