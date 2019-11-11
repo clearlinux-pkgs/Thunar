@@ -1,3 +1,731 @@
+commit 48854b68c740a13706ed1e7c9d4fdc20ed9285a0
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Nov 3 20:03:23 2019 -0300
+
+    Allow compilation with panel 4.15
+
+commit aa0a514fcadcbf1215ace00c90ccb79fcfdc5538
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Nov 3 19:52:13 2019 -0300
+
+    Drop unused variables
+
+commit 00188732fc51aa40c29a4a13ff29b1a930a4d124
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Nov 3 13:36:25 2019 -0300
+
+    thunar-job: callee should keep track of the number of processed files (Bug #16117)
+
+commit 48b993b7245d25f28b16168a7f3e73c4d889fa75
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sun Nov 3 22:16:42 2019 +0100
+
+    Thunar does not show a context menu on right-click when started via
+    trash-panel-plugin (Bug #16000)
+
+commit 300754b00a35abe2b8dde1db81c325eb046c7b6e
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sat Nov 2 18:58:57 2019 -0300
+
+    Make sure icon text is centered after unchecking "Text beside icons"
+
+commit a9a779d352ca85c5fa087175ecd593e78edf7b16
+Author: Adam Purkrt <adam@purkrt.net>
+Date:   Sat Nov 2 17:58:58 2019 +0100
+
+    Remove the vertical gap between icon and its label (Bug #16041)
+    
+    This change removes the gap between icon and its label. This gap is
+    not clickable, which is inconvenient, since one can hit it easily
+    and then it feels like clicking the file does nothing.
+
+commit 3dc8dab2da75b0161842bf86902c035d159f94a6
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sat Nov 2 17:05:02 2019 -0300
+
+    Fix icon view alignment (Bug #16107)
+
+commit 4c66898d60a6e0d1e8d15c7c49bb1ee5cc02e286
+Author: Walter Cheuk <wwycheuk@gmail.com>
+Date:   Thu Oct 31 06:30:41 2019 +0100
+
+    I18n: Update translation zh_TW (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6d86497632efd0e6dd26e4c8abbc8f141665351a
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Oct 31 00:30:38 2019 +0100
+
+    I18n: Update translation pl (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b3aaf07410fc032276240dcf9071387eb024aa45
+Author: Jason Collins <JasonPCollins@protonmail.com>
+Date:   Fri Oct 25 18:31:15 2019 +0200
+
+    I18n: Update translation en_GB (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 01759768f2e138bf2de2a17bc00727c341fb5d23
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Sat Oct 19 12:30:45 2019 +0200
+
+    I18n: Update translation fr (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit bf59b33aca93e7c0872df8cd798f05355dd5a4e9
+Author: Arnold Marko <arnold.marko@gmail.com>
+Date:   Sat Oct 19 00:31:11 2019 +0200
+
+    I18n: Update translation sl (94%).
+    
+    716 translated messages, 44 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3a4017cdc6d192b63644b734b90fc06f6b9f5cf1
+Author: Arnold Marko <arnold.marko@gmail.com>
+Date:   Fri Oct 18 18:30:29 2019 +0200
+
+    I18n: Update translation sl (88%).
+    
+    672 translated messages, 88 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 215d08d38ef8808fcde8cbcb18e40b6598d7a48b
+Author: Seong-ho Cho <darkcircle.0426@gmail.com>
+Date:   Thu Oct 17 12:30:47 2019 +0200
+
+    I18n: Update translation ko (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit a87c890d78d749cc69125bf744913d9ea6576617
+Author: Yury Martynov <email@linxon.ru>
+Date:   Wed Oct 16 14:46:30 2019 +0300
+
+    Not possible to grab scrollbar on the very right pixels when Thunar is
+    maximized (Bug #16050)
+
+commit fa90bc83716118f093a4508a5772635b194eb598
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Oct 6 15:44:56 2019 -0300
+
+    Safer code
+
+commit f1c4a91b5949a5439936285a9de874e4f0dedce0
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Oct 3 23:37:19 2019 -0300
+
+    Wrap text of error dialog
+
+commit c1cdaa0e1635f1c524d8ab068ae3f37e1d64a7b5
+Author: Dmitri Bogomolov <4glitch@gmail.com>
+Date:   Fri Oct 4 18:30:28 2019 +0200
+
+    I18n: Update translation uk (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 4cc9968e5d2063240dfef0db27d072d04eed617d
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Thu Oct 3 22:27:52 2019 +0200
+
+    Not possible to empty the trash via the pathbar context menu
+
+commit 75a43f6874792bd8089548067fe97f614c3b7451
+Author: Michael Martins <michaelfm21@gmail.com>
+Date:   Mon Sep 30 12:31:37 2019 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e8358f7f3c616f88d16b8e54cd29d425ccd56ba9
+Author: Oukiki Saleh <salehoukiki@gmail.com>
+Date:   Mon Sep 30 12:31:37 2019 +0200
+
+    I18n: Update translation ar (98%).
+    
+    752 translated messages, 8 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 62d8e6de9fffd3d30fc89c6e02e59f47c27908a4
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Tue Sep 24 01:16:25 2019 +0200
+
+    Crash on refresh if remote folder has been removed (Bug #15961)
+
+commit 86bc38d38e22f9b40769068809d02e455aad56ba
+Author: Zmicer Turok <nashtlumach@gmail.com>
+Date:   Tue Sep 24 12:30:36 2019 +0200
+
+    I18n: Update translation be (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b5b1a4bbeb23d88f34173fb3bf5058d49a156203
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Mon Sep 23 22:37:15 2019 +0200
+
+    Fixed unused variable warning
+
+commit bae86115faaae9e2e4b7c28964b0b9864d626010
+Author: fuank <greob@yahoo.com.sg>
+Date:   Sun Sep 22 21:29:30 2019 +0200
+
+    Center action buttons in conflict dialog window (Bug #15973) - Prevent
+    usage of deprecated gtk_dialog_get_action_area
+    
+    Co-authored-by: Alexander Schwinn <alexxcons@xfce.org>
+
+commit 1b568d86396e3ec298ca7f06cb7b47db62224e02
+Author: Reuben Green <reubengreen73@gmail.com>
+Date:   Fri Sep 20 11:04:00 2019 +0100
+
+    Ensure user customizable action uses currently selected file path (Bug #15119)
+    
+    Moves the call to thunar_standard_view_merge_custom_actions from thunar_standard_view_context_menu
+    to thunar_standard_view_selection_changed to ensure that the available menu items get updated
+    whenever the file selection changes, not just when a context menu is run.
+
+commit 5e520fd0a4bfe781d23f016344797556f6cd385c
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Sat Sep 21 18:30:36 2019 +0200
+
+    I18n: Update translation pt (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7ca9b5f133cea26639d7844a02ca79cb0447978b
+Author: Dušan Kazik <prescott66@gmail.com>
+Date:   Sat Sep 21 00:30:47 2019 +0200
+
+    I18n: Update translation sk (99%).
+    
+    759 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 4fa2da132855f62ef271e6243e5bcbd6a6efa6cd
+Author: fuank <greob@yahoo.com.sg>
+Date:   Sat Sep 21 00:11:50 2019 +0200
+
+    make filename label selectable in conflict dialog window
+
+commit cc1c4ac50680d22539029506b5e6484cc9afdcba
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sat Sep 21 00:09:10 2019 +0200
+
+    Center action buttons in conflict dialog window
+    (Bug #15973)
+
+commit f8a05fae801e039ed65ceac411f4fe23e243619d
+Author: Theppitak Karoonboonyanan <theppitak@gmail.com>
+Date:   Thu Sep 19 12:30:43 2019 +0200
+
+    I18n: Update translation th (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ebb3936eb2d7375a26f9d1e863975e153d72c9a4
+Author: Reuben Green <reubengreen73@gmail.com>
+Date:   Tue Sep 17 15:28:40 2019 +0100
+
+    Clear user customizable action shortcut when the action is deleted
+    
+    Bug #15970
+    
+    Fixes a bug which causes a keyboard shortcut to become permenantly unavailable
+    for use in a user customizable action (uca) if it has been used in a previously
+    deleted uca, by adding code to clear any keyboard shortcut associated to a uca
+    when it is deleted.
+
+commit c1292ad570a8765c0f589083d75baa018d7eeed3
+Author: Reuben Green <reubengreen73@gmail.com>
+Date:   Tue Sep 17 14:57:27 2019 +0100
+
+    Prevent Gtk-CRITICAL when adding or modifying a user customizable action.
+    
+    Bug #15970
+    
+    Adds a check for a NULL value which occurs when adding a new user customizable
+    action or adding a keyboard shortcut to one which previously did not have one.
+    This NULL value itself is not an error, since it indicates the abscence of an
+    existing shortcut, but the lack of this check causes a Gtk-CRITICAL error.
+
+commit 51f9f322bf76a5da52b85a02c2a3b03f2a45950b
+Author: Walter Cheuk <wwycheuk@gmail.com>
+Date:   Mon Sep 16 12:30:44 2019 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7d965eda09a6e1e68cf5b0d29b7ee8efd0620b22
+Author: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+Date:   Mon Sep 16 06:30:40 2019 +0200
+
+    I18n: Update translation ja (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e7d247f8c384db7af89eebebb3351d4021e3c7db
+Author: Саша Петровић <salepetronije@gmail.com>
+Date:   Sun Sep 15 00:30:48 2019 +0200
+
+    I18n: Update translation sr (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit aaecca4adbbbe34b327db78b86f9c86bdcbb0168
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Sep 15 00:30:48 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3acc6df2252705c0c02c62874fd7275d25de0708
+Author: Walter Cheuk <wwycheuk@gmail.com>
+Date:   Fri Sep 13 06:30:56 2019 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b793bcaa67a0fbd4af9e2de3d9d31ed19a709123
+Author: Walter Cheuk <wwycheuk@gmail.com>
+Date:   Thu Sep 12 06:31:06 2019 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 148f0352f7733b523bd71f9b0e187d1648329a12
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Sun Sep 8 18:30:46 2019 +0200
+
+    I18n: Update translation nb (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 51ea35b858f62fd67b058e9f0b49d494c1dd8611
+Author: Michael Martins <michaelfm21@gmail.com>
+Date:   Sun Sep 8 06:30:38 2019 +0200
+
+    I18n: Update translation pt_BR (99%).
+    
+    759 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit fe65406cdaf750ceec1ffac1d5c0b29a79596b5c
+Author: Sergey Ponomarev <stokito@gmail.com>
+Date:   Fri Sep 6 23:19:38 2019 +0200
+
+    Thunar SendTo Email: Add missing archive formats for archive detection
+    (Bug #15917)
+
+commit 97ac8f69dbc56735698a581d26bc1e1aed3955f4
+Author: user14 <nleknh@gmail.com>
+Date:   Fri Sep 6 18:30:36 2019 +0200
+
+    I18n: Update translation hu (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c97b63d86090d9d6369cb23ba7f64b8b083285fd
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Wed Sep 4 18:30:38 2019 +0200
+
+    I18n: Update translation pt (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7bfadf4351087109b075b9ffe5bf4d5df70f446b
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Wed Sep 4 12:30:40 2019 +0200
+
+    I18n: Update translation pt (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit a432b8dd6800cbc3331d54511c56b444fd4fafa9
+Author: Sergey Ponomarev <stokito@gmail.com>
+Date:   Mon Sep 2 11:55:13 2019 +0300
+
+    sendto plugin: fix content type resolution. (Bug #15916)
+    
+    Additionally request G_FILE_ATTRIBUTE_STANDARD_CONTENT_TYPE for tse_data->info.
+    This is needed later for g_file_info_get_content_type() call inside tse_file_is_archive()
+    
+    Signed-off-by: Sergey Ponomarev <stokito@gmail.com>
+    Signed-off-by: Alexander Schwinn <alexxcons@xfce.org>
+
+commit a74764160cd34f2a8669f6fe9a25967439e53aa8
+Author: Sergey Ponomarev <stokito@gmail.com>
+Date:   Mon Sep 2 11:50:15 2019 +0300
+
+    sendto plugin: extract function tse_file_is_archive
+    (Bug #15916)
+    
+    Signed-off-by: Sergey Ponomarev <stokito@gmail.com>
+    Signed-off-by: Alexander Schwinn <alexxcons@xfce.org>
+
+commit 57fa316d24ced0cbc6536469700a45697b5893aa
+Author: Sergey Ponomarev <stokito@gmail.com>
+Date:   Sun Sep 1 23:02:46 2019 +0300
+
+    sendto plugin: move g_file_info_get_content_type() call out of the cycle
+    (Bug #15916)
+    
+    Signed-off-by: Sergey Ponomarev <stokito@gmail.com>
+    Signed-off-by: Alexander Schwinn <alexxcons@xfce.org>
+
+commit ba9fbb6d5c6dced62f6a6d1e4b95d22bd1edd48e
+Author: Igor <f2404@yandex.ru>
+Date:   Tue Sep 3 18:30:45 2019 +0200
+
+    I18n: Update translation ru (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7e0a1f7c712b8d3e0c157df61fa8a051c9926023
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue Sep 3 18:30:45 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8aa2238d08b2f23f56697b650743657705f7dc67
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue Sep 3 12:30:40 2019 +0200
+
+    I18n: Update translation fr (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 93b7b049b8943c9f8ee6df1b2b32f40a93486208
+Author: Pjotr <pjotrvertaalt@gmail.com>
+Date:   Tue Sep 3 00:30:51 2019 +0200
+
+    I18n: Update translation nl (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 061c471d02cb49e647b67499b9b115cf37f543f5
+Author: Andreas Eitel <github-aneitel@online.de>
+Date:   Tue Sep 3 00:30:51 2019 +0200
+
+    I18n: Update translation de (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f7c4b285187dc331129f0d2874bb37bc3b34c839
+Author: Demiray Muhterem <mdemiray@msn.com>
+Date:   Mon Sep 2 18:30:53 2019 +0200
+
+    I18n: Update translation tr (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f08900093f1a2dc32f729be0e2384e452722a566
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Sep 2 18:30:53 2019 +0200
+
+    I18n: Update translation pl (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3136c559ae850fe671b4e3336e3df7827fc1f239
+Author: abuyop <abuyop@gmail.com>
+Date:   Mon Sep 2 18:30:52 2019 +0200
+
+    I18n: Update translation ms (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e5ed3a82ce63118414a2f8dcce560ad5f345e6b7
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Mon Sep 2 18:30:52 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 9b6308c1ba2c4f971939356b317c3e0328b149f3
+Author: Kiril Kirilov <cybercop_montana@abv.bg>
+Date:   Mon Sep 2 18:30:52 2019 +0200
+
+    I18n: Update translation bg (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ff8a0421c011fb1b970e17f29c0cda6d82ced76f
+Author: Besnik <besnik@programeshqip.org>
+Date:   Mon Sep 2 12:31:00 2019 +0200
+
+    I18n: Update translation sq (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 49d77cfeb6b72ad05247ee186894da2080c0efb8
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Sep 2 12:31:00 2019 +0200
+
+    I18n: Update translation lt (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 63bd1fd501298f19d17abaa1fa65c04e0fbb313a
+Author: Emanuele Petriglia <transifex@emanuelepetriglia.com>
+Date:   Mon Sep 2 12:31:00 2019 +0200
+
+    I18n: Update translation it (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d553a5b831a8764e6ab9b6d165c6e09e5c89598d
+Author: Edin Veskovic <edin.lockedin@gmail.com>
+Date:   Mon Sep 2 12:30:59 2019 +0200
+
+    I18n: Update translation hr (99%).
+    
+    759 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 5adb5a2914ad5b997e9ea81d55c8915ced4e15f8
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Sep 2 12:30:59 2019 +0200
+
+    I18n: Update translation es (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 739ea7c8987858e2b149433c052190de1fa4ad20
+Author: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
+Date:   Mon Sep 2 12:30:59 2019 +0200
+
+    I18n: Update translation ca (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 62167a1a73b564b0629a868dc20850bbbbb1c6cb
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Sep 1 14:20:44 2019 -0300
+
+    Make thunar-settings.desktop name more descriptive
+
+commit 20f3368e436532d810d151725ea387f071a088de
+Author: Besnik <besnik@programeshqip.org>
+Date:   Fri Aug 30 12:31:02 2019 +0200
+
+    I18n: Update translation sq (100%).
+    
+    759 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit daffbbd0a2b3d556595a174a4b9cc1588a1d0278
+Author: Emanuele Petriglia <transifex@emanuelepetriglia.com>
+Date:   Fri Aug 30 12:31:02 2019 +0200
+
+    I18n: Update translation it (100%).
+    
+    759 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d67c06aaddc98cd48aa81fc9029fa682f187ca12
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Aug 29 22:40:24 2019 -0300
+
+    All glory to lowercase (Bug #15394)
+
+commit c1fa044ad44b673e7c4a75f13c9d4f3a523ba9fb
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Mon Jun 3 23:27:15 2019 +0200
+
+    mismatched names between thunar.appdata.xml and thunar.desktop
+    (Bug #15498)
+
+commit c134d378f635c23e26b18a944e33a83b1a38cc91
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Thu May 23 10:31:38 2019 +0200
+
+    Replace text "Enter the new name:" by "Enter the name:" for file
+    creation dialog (Bug #15423)
+
+commit 9497a902b3fa7e67db7f4366e2557d1a7d24d506
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Fri May 31 23:40:55 2019 +0200
+
+    Remove superfluous .desktop file "Thunar-folder-handler.desktop.in"
+    (Bug #15467)
+
+commit f98dfbae59ae9929440f02776226840096b557f9
+Author: Oukiki Saleh <salehoukiki@gmail.com>
+Date:   Wed Aug 28 00:30:46 2019 +0200
+
+    I18n: Update translation ar (96%).
+    
+    737 translated messages, 24 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit db49aa728b029ca1c398d0d8bee9a41db0c399ce
+Author: Reuben Green <reubengreen73@gmail.com>
+Date:   Sat Aug 24 16:51:37 2019 +0100
+
+    Prevent unnecessary fallback copy-delete in file move when overwriting
+    
+    Allows the use of native filesystem move (rather than a copy-and-delete-fallback) when overwriting
+    files in a file move, with the user having the option (via a thunar_job_ask_replace dialog box)
+    to replace or skip files, or else cancel the whole operation.
+    
+    (Bug #15727)
+
+commit edb22b5071c9d00808c5d6333b4cadbd18c028e3
+Author: Reuben Green <reubengreen73@gmail.com>
+Date:   Sat Aug 24 16:49:44 2019 +0100
+
+    Fix possible memory leak
+    
+    Adds some calls to g_object_unref to the code in thunar_transfer_job_execute which moves files out
+    of the trash, in order to prevent possible memory leaks when such a move operation is canceled.
+
+commit 88f5f5ca03fc3bc88291eabf1097edd17bef6ce0
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Aug 25 16:16:50 2019 -0300
+
+    Fix popup menus size (Bug #15832)
+    
+    This is the same workaround used by Nemo:
+    https://github.com/linuxmint/nemo/commit/ff08b987b8630f690bfebb6b0b7a931e519079d7
+
+commit 47b06d1a41b8ccf8a43b86c44c1beb02448d7a61
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Aug 25 18:05:32 2019 -0300
+
+    Add Alt+D as alternative accelerator for Open Location (Bug #15828)
+
+commit 3eb6e78cf4aeacdebaa425af00556db4d73f6bcb
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Aug 25 15:45:31 2019 -0300
+
+    Do not insert hyphens at intra-word line breaks (Bug #15856)
+
+commit 5a680233528485a0cac53134d8dc043ee6214a2a
+Author: clmmbs <msreywel@hotmail.com>
+Date:   Sat Aug 17 18:30:49 2019 +0200
+
+    I18n: Update translation ar (95%).
+    
+    727 translated messages, 34 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d572c5c8c075b26a3dde4a5c75b5007a1a406c3f
+Author: Ali Molaei <ali.molaei@protonmail.com>
+Date:   Tue Aug 13 18:30:59 2019 +0200
+
+    I18n: Update translation fa_IR (82%).
+    
+    625 translated messages, 136 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f0c670c2432410f0e0700027316e635e00d8d206
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Aug 11 19:38:13 2019 -0300
+
+    Back to development
+
+commit 8204be8b8a5aff6d62265d3e20ba08d40a4a8986
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Aug 11 19:34:31 2019 -0300
+
+    Updates for release
+
 commit 0fefaa8862b0f36b02781a4c52ae9799a8901e13
 Author: Alexander Schwinn <alexxcons@xfce.org>
 Date:   Sun Jul 28 00:04:52 2019 +0200
@@ -8107,7 +8835,7 @@ Date:   Tue Nov 14 12:30:25 2017 +0100
     Transifex (https://www.transifex.com/xfce/public/).
 
 commit d21bbf36e803fae13d996424c1c09c0537a9c9a5
-Merge: 00ed70512 905755ed4
+Merge: 00ed7051 905755ed
 Author: Alexander Schwinn <acs82@gmx.de>
 Date:   Fri Nov 10 21:35:59 2017 +0100
 
@@ -13166,7 +13894,7 @@ Date:   Tue Apr 7 19:27:12 2015 +0200
     http://docs.xfce.org/xfce/thunar/working-with-files-and-folders
 
 commit 15b0789f96861b95104f27b95828b8ac433fc682
-Merge: 3a53de789 b2012f58d
+Merge: 3a53de78 b2012f58
 Author: Harald Judt <h.judt@gmx.at>
 Date:   Sat Apr 18 14:17:39 2015 +0200
 
@@ -14998,7 +15726,7 @@ Date:   Sat Dec 20 18:30:18 2014 +0100
     Transifex (https://www.transifex.com/projects/p/xfce/).
 
 commit f96608c72346fb59567ff568c43f8c3867311fad
-Merge: 5a623a58a 9e9da205c
+Merge: 5a623a58 9e9da205
 Author: Andrzej <ndrwrdck@gmail.com>
 Date:   Sat Dec 20 00:21:57 2014 +0000
 
@@ -26783,7 +27511,7 @@ Date:   Mon Feb 14 15:01:35 2011 +0100
     Release 1.3.0!
 
 commit 6ebca95f7cd2b2de82057994c7b8239f7cc3b5fb
-Merge: 26d6c1323 3415bea8e
+Merge: 26d6c132 3415bea8
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Mon Feb 14 14:09:15 2011 +0100
 
@@ -30060,7 +30788,7 @@ Date:   Sun Mar 7 13:33:33 2010 +0100
     Rebuild po files.
 
 commit f865af6bd9bc7ac42c6f9371a6c16d1a7ff92bd1
-Merge: 5f3ce87e0 bb0990764
+Merge: 5f3ce87e bb099076
 Author: Nick Schermer <nick@xfce.org>
 Date:   Sun Mar 7 13:32:34 2010 +0100
 
@@ -31867,7 +32595,7 @@ Date:   Sun Aug 23 22:29:38 2009 +0200
     Don't try to load data from the file if the returned length is nul.
 
 commit 52808a85c7e5d393c7189c6b722f824509f9d373
-Merge: d19261c30 d1ab39811
+Merge: d19261c3 d1ab3981
 Author: Nick Schermer <nick@xfce.org>
 Date:   Sun Aug 23 22:12:05 2009 +0200
 
@@ -31992,7 +32720,7 @@ Date:   Fri Aug 21 17:58:21 2009 +0200
     Update .pot and .po files after the big merge.
 
 commit 45faed1e3f3fb38b8789eb430e2edc83f4607307
-Merge: 1f5eed407 391b312b2
+Merge: 1f5eed40 391b312b
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Fri Aug 21 17:51:29 2009 +0200
 
@@ -32038,7 +32766,7 @@ Date:   Thu Aug 20 03:13:20 2009 +0000
     Transmitted-via: Transifex (translations.xfce.org)
 
 commit 116819a0d9f258df20c76cd336723628a3b5798b
-Merge: bb4871c7f 2f7bbac6e
+Merge: bb4871c7 2f7bbac6
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Sun Aug 16 00:38:32 2009 +0200
 
@@ -49418,7 +50146,7 @@ Date:   Wed Jul 20 19:41:31 2005 +0000
     (Old svn revision: 16402)
 
 commit 7b287b2c68596b6c92ebded1d8cbab3787ccdf23
-Merge: d36df4cda 5cec398f8
+Merge: d36df4cd 5cec398f
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Mon Jul 18 20:30:40 2005 +0000
 
