@@ -1,3 +1,51 @@
+commit 4d415ac223bb6a3ab8b88213b427e3303f0f0e86
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Fri Nov 15 23:29:52 2019 +0100
+
+    lower minimum required pango version to 1.38.0 (Bug #16138)
+
+commit 55a700a33eb7d0a28b587cc33dd0c0768f6e2764
+Author: Olivier Duchateau <duchateau.olivier@gmail.com>
+Date:   Tue Nov 12 09:51:26 2019 +0100
+
+    Thunar 1.8.10 crashing on startup in FreeBSD and Fedora, caused by
+    nonfunctional pango version check (Bug #16136, Bug #16138)
+    
+    Co-authored-by:  Guido Falsi <madpilot@FreeBSD.org>
+    Co-authored-by:  Alexander Schwinn <alexxcons@xfce.org>
+
+commit 88dfd33be1ef966fd7bc44665fac7c529a29e8b3
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Nov 11 18:30:55 2019 +0100
+
+    I18n: Update translation ie (99%).
+    
+    755 translated messages, 5 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7928ad820a8d78d579f7a851ea1e339ea68b2769
+Author: Toni Estévez <toni.estevez@gmail.com>
+Date:   Sun Nov 10 12:30:47 2019 +0100
+
+    I18n: Update translation es (100%).
+    
+    760 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f9d646e6d8a7c1acf4dea3360882a85a392bca65
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sat Nov 9 23:18:39 2019 +0100
+
+    Back to development
+
+commit 1ba0d507e1a58ebcff361efb8e5addfee40dd670
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Sat Nov 9 22:52:55 2019 +0100
+
+    Updates for release
+
 commit 48854b68c740a13706ed1e7c9d4fdc20ed9285a0
 Author: Andre Miranda <andreldm@xfce.org>
 Date:   Sun Nov 3 20:03:23 2019 -0300
