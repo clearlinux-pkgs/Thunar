@@ -1,7 +1,3 @@
-1.8.11
-glibc-bin
+1.8.12
 gobject-introspection-dev
 perl
-pkgconfig(ice)
-pkgconfig(libxml-2.0)
-pkgconfig(sm)
