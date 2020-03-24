@@ -1,3 +1,198 @@
+commit 13a09f1ea3de33fc24ca17aecb39fd5b43caa8dd
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Mon Mar 23 18:18:11 2020 +0100
+
+    Use tre-view toplevel path of the cursor, if available, in order to
+    prevent jumping (Bug #16024)
+
+commit 6850f6fecc1da3230d69617d4293100ba8acd099
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Sun Mar 22 18:24:02 2020 +0100
+
+    Unregister handler when Rename dialog is closed manually (followup of
+    Bug #10805)
+
+commit d23965ab0083dda8d4e83ae7d247f99365cdd8e9
+Author: Hugo Carvalho <hugokarvalho@hotmail.com>
+Date:   Thu Mar 19 18:30:59 2020 +0100
+
+    I18n: Update translation pt (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7959c91613dc20c829e36ff14ec60ff901462d3c
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Sun Mar 15 13:06:11 2020 +0100
+
+    Increase vertical gap between icon and its label slightly (Bug #16041)
+    
+    without creating an unclickable area.
+
+commit 35055c227e46d68e9f46fb4eb9c2854e5ab1c4b3
+Author: Reuben Green <reubengreen73@gmail.com>
+Date:   Sat Mar 14 00:49:05 2020 +0000
+
+    Fix for crash when inserting USB device in tree mode. (Bug #15172)
+    
+    This fix reverts commit 33a155c1bded0487396b609aad19730a9f201bbb
+
+commit e0a3676177d09ce4f19e188634d16e10716b39f6
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Fri Mar 13 22:56:14 2020 +0100
+
+    Always jump to Home when ejecting a currently viewed device (Bug #16504)
+
+commit 69c963dbaf1899fb5445078ad662a314776776db
+Author: Triyan W. Nugroho <triyan.wn@gmail.com>
+Date:   Wed Mar 11 12:30:42 2020 +0100
+
+    I18n: Update translation id (95%).
+    
+    729 translated messages, 32 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b81aade02d1c03d07b35096f711fcb0dc96a0d3b
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Mon Mar 2 20:35:08 2020 +0100
+
+    Allow context menu when editing location in pathbar (Bug #16483)
+
+commit 1d46702563be0418cc3a18e413f958bb86ba30c8
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Fri Feb 28 11:40:04 2020 +0100
+
+    Sort device entries in tree view (Bug #16471)
+
+commit b66d817257dfd7fd2e148ba9386568c5d7eb6d92
+Author: Ilija Ćulap <ilija.culap14@gmail.com>
+Date:   Fri Feb 28 18:30:52 2020 +0100
+
+    I18n: Update translation hr (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 110184f467038673a81d871fe6dd18fda5000a00
+Author: Sebastião Guerra <sebastiao.luiz.guerra@gmail.com>
+Date:   Tue Feb 25 18:30:47 2020 +0100
+
+    I18n: Update translation pt_BR (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8811c73487a12c42c9cb52c30c4fe870ed7265ea
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Thu Feb 20 22:37:43 2020 +0100
+
+    - fixed a warning
+
+commit 5e58fd17f88476c9ad341e2236c5aead7e1444cd
+Author: Reuben Green <reubengreen73@gmail.com>
+Date:   Tue Feb 18 13:53:58 2020 +0000
+
+    Allow opening of multiple file selections (bug #2487)
+    
+    Allow multiple file selections to be opened by pressing enter, space, or
+    Ctrl^O.
+    
+    Fixes bug #2487
+
+commit 81bd5401c5f9573ef644bdbe01d23879149dd63f
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Tue Feb 18 12:45:44 2020 +0100
+
+    Fix pathbar match filtering (Bug #16267)
+
+commit 85cea710fe895999957fe12f8a37a0cdcf467da7
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Sat Feb 15 16:41:33 2020 +0100
+
+    Avoid unreadable names in detailed view (Bug #16391)
+
+commit b0dac2a485fe1a5356560725b1dcea5004da7012
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Sat Feb 15 17:34:46 2020 +0100
+
+    Prevent crash when renaming file (Bug #10805)
+
+commit 9ad208ff68d2f61ec8ec1391f0d34c446521d893
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Sat Feb 15 12:30:44 2020 +0100
+
+    I18n: Update translation fr (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 4705276241867aa99a124b9bf1509a4fc0ddfd0c
+Author: abuyop <abuyop@gmail.com>
+Date:   Sun Feb 9 00:30:44 2020 +0100
+
+    I18n: Update translation ms (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit a51d3465a1c441980b26440538576f8343afc8b9
+Author: Zmicer Turok <nashtlumach@gmail.com>
+Date:   Thu Feb 6 12:30:51 2020 +0100
+
+    I18n: Update translation be (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3b8d9f7e202ad0a51c8d9f2387d4c1d127a63185
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue Feb 4 06:30:32 2020 +0100
+
+    I18n: Update translation fi (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 5655fad5476c16ed9730d69143fe36b00a70fd40
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Mon Feb 3 00:30:47 2020 +0100
+
+    I18n: Update translation he (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit dd9d16f60035811f65c52a5625f5e16a678b03db
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:   Sat Feb 1 18:30:46 2020 +0100
+
+    I18n: Update translation kk (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6a603ecace39846e081b677c2585d22934f12c08
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Jan 30 21:13:51 2020 -0300
+
+    Back to development
+
+commit 53afde0c1d0b7f22e5b513dd624455838f409179
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Jan 30 21:11:59 2020 -0300
+
+    Updates for release
+
 commit b9f0667398d6c6bff127512a790da1a4588302e7
 Author: Besnik <besnik@programeshqip.org>
 Date:   Tue Jan 28 18:31:30 2020 +0100
