@@ -1,3 +1,36 @@
+commit 1b66c2a9ac4b21fb2386df88415eec5031fa9c36
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Wed Mar 25 16:05:11 2020 +0100
+
+    Revert "Allow opening of multiple file selections (bug #2487)", because
+    it introduced a regression (Not possible any more to DnD multiple files
+    in icon/compact view)
+    
+    This reverts commit 8811c73487a12c42c9cb52c30c4fe870ed7265ea and
+    5e58fd17f88476c9ad341e2236c5aead7e1444cd
+
+commit 5cf2e2e8c99e231ea2ea687135388b84418dfe65
+Author: Hugo Carvalho <hugokarvalho@hotmail.com>
+Date:   Tue Mar 24 18:30:43 2020 +0100
+
+    I18n: Update translation pt (100%).
+    
+    761 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8feb0fa2be3b54fc1ce2f59485ed26cb646cf73b
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Mon Mar 23 22:25:52 2020 +0100
+
+    Back to development
+
+commit a673c0612a1fccc855ad4c65bd04d98e5818f469
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Mon Mar 23 22:18:55 2020 +0100
+
+    Updates for release
+
 commit 13a09f1ea3de33fc24ca17aecb39fd5b43caa8dd
 Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
 Date:   Mon Mar 23 18:18:11 2020 +0100
