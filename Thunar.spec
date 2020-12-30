@@ -4,7 +4,7 @@
 #
 Name     : Thunar
 Version  : 4.16.0
-Release  : 46
+Release  : 47
 URL      : https://archive.xfce.org/xfce/4.16/src/thunar-4.16.0.tar.bz2
 Source0  : https://archive.xfce.org/xfce/4.16/src/thunar-4.16.0.tar.bz2
 Summary  : A library to create Thunar extensions
@@ -45,7 +45,7 @@ BuildRequires : pkgconfig(gudev-1.0)
 BuildRequires : pkgconfig(libpng)
 BuildRequires : pkgconfig(libwnck-1.0)
 BuildRequires : pkgconfig(libxfce4kbd-private-3)
-BuildRequires : pkgconfig(libxfce4panel-1.0)
+BuildRequires : pkgconfig(libxfce4panel-2.0)
 BuildRequires : pkgconfig(libxfce4ui-2)
 BuildRequires : pkgconfig(libxfce4util-1.0)
 BuildRequires : pkgconfig(libxfconf-0)
@@ -147,7 +147,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1609287302
+export SOURCE_DATE_EPOCH=1609288945
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -167,7 +167,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1609287302
+export SOURCE_DATE_EPOCH=1609288945
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Thunar
 cp %{_builddir}/thunar-4.16.0/COPYING %{buildroot}/usr/share/package-licenses/Thunar/dfac199a7539a404407098a2541b9482279f690d
