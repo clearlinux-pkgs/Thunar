@@ -2,8 +2,8 @@
 # This file contains extra pkgconfig build requirements that don't get picked up but are 
 # desirable. One name per line, no whitespace.
 #
-libxfce4ui-1
-exo-1
+libxfce4ui-2
+exo-2
 garcon-1
 libwnck-1.0
 egl
