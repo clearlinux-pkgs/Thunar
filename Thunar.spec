@@ -5,8 +5,8 @@
 Name     : Thunar
 Version  : 4.16.0
 Release  : 47
-URL      : https://archive.xfce.org/xfce/4.16/src/thunar-4.16.0.tar.bz2
-Source0  : https://archive.xfce.org/xfce/4.16/src/thunar-4.16.0.tar.bz2
+URL      : https://archive.xfce.org/src/xfce/thunar/4.16/thunar-4.16.0.tar.bz2
+Source0  : https://archive.xfce.org/src/xfce/thunar/4.16/thunar-4.16.0.tar.bz2
 Summary  : A library to create Thunar extensions
 Group    : Development/Tools
 License  : GPL-2.0 LGPL-2.0
