@@ -26,6 +26,7 @@ libthunarx-3.so.0:thunarx_menu_item_new
 libthunarx-3.so.0:thunarx_menu_item_set_menu
 libthunarx-3.so.0:thunarx_menu_item_set_sensitive
 libthunarx-3.so.0:thunarx_menu_new
+libthunarx-3.so.0:thunarx_menu_prepend_item
 libthunarx-3.so.0:thunarx_menu_provider_get_dnd_menu_items
 libthunarx-3.so.0:thunarx_menu_provider_get_file_menu_items
 libthunarx-3.so.0:thunarx_menu_provider_get_folder_menu_items
