@@ -4,10 +4,10 @@
 # Using build pattern: configure
 #
 Name     : Thunar
-Version  : 4.18.6
-Release  : 56
-URL      : https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.6.tar.bz2
-Source0  : https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.6.tar.bz2
+Version  : 4.18.7
+Release  : 58
+URL      : https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.7.tar.bz2
+Source0  : https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.7.tar.bz2
 Summary  : A library to create Thunar extensions
 Group    : Development/Tools
 License  : GPL-2.0 LGPL-2.0
@@ -144,15 +144,18 @@ services components for the Thunar package.
 
 
 %prep
-%setup -q -n thunar-4.18.6
-cd %{_builddir}/thunar-4.18.6
+%setup -q -n thunar-4.18.7
+cd %{_builddir}/thunar-4.18.7
+pushd ..
+cp -a thunar-4.18.7 buildavx2
+popd
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1682979189
+export SOURCE_DATE_EPOCH=1693952680
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -164,19 +167,34 @@ export CXXFLAGS="$CXXFLAGS -O3 -fdebug-types-section -femit-struct-debug-baseonl
 %configure --disable-static --disable-introspection
 make  %{?_smp_mflags}
 
+unset PKG_CONFIG_PATH
+pushd ../buildavx2/
+export CFLAGS="$CFLAGS -m64 -march=x86-64-v3 -Wl,-z,x86-64-v3"
+export CXXFLAGS="$CXXFLAGS -m64 -march=x86-64-v3 -Wl,-z,x86-64-v3"
+export FFLAGS="$FFLAGS -m64 -march=x86-64-v3 -Wl,-z,x86-64-v3"
+export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3"
+export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3"
+%configure --disable-static --disable-introspection
+make  %{?_smp_mflags}
+popd
 %check
 export LANG=C.UTF-8
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check
+cd ../buildavx2;
+make %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1682979189
+export SOURCE_DATE_EPOCH=1693952680
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Thunar
 cp %{_builddir}/thunar-%{version}/COPYING %{buildroot}/usr/share/package-licenses/Thunar/4cc77b90af91e615a64ae04893fdffa7939db84c || :
 cp %{_builddir}/thunar-%{version}/COPYING.LIB %{buildroot}/usr/share/package-licenses/Thunar/86207ea3fdd7e8ef5ea34ca9d12a511dc7272d31 || :
+pushd ../buildavx2/
+%make_install_v3
+popd
 %make_install
 %find_lang thunar
 ## Remove excluded files
@@ -185,13 +203,16 @@ rm -f %{buildroot}*/usr/share/dbus-1/services/org.freedesktop.FileManager1.servi
 mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot}%{_sysconfdir}
 
 ## install_append end
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
+/V3/usr/lib64/Thunar/thunar-sendto-email
 /usr/lib64/Thunar/thunar-sendto-email
 
 %files bin
 %defattr(-,root,root,-)
+/V3/usr/bin/thunar
 /usr/bin/Thunar
 /usr/bin/thunar
 /usr/bin/thunar-settings
@@ -393,6 +414,12 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/. && rmdir %{buildroot
 
 %files lib
 %defattr(-,root,root,-)
+/V3/usr/lib64/libthunarx-3.so.0.0.0
+/V3/usr/lib64/thunarx-3/thunar-apr.so
+/V3/usr/lib64/thunarx-3/thunar-sbr.so
+/V3/usr/lib64/thunarx-3/thunar-uca.so
+/V3/usr/lib64/thunarx-3/thunar-wallpaper-plugin.so
+/V3/usr/lib64/xfce4/panel/plugins/libthunar-tpa.so
 /usr/lib64/libthunarx-3.so.0
 /usr/lib64/libthunarx-3.so.0.0.0
 /usr/lib64/thunarx-3/thunar-apr.so

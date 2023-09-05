@@ -1,2 +1,4 @@
 Configure miss: setgroupent
+Configure miss: setgroupent
+Configure miss: setpassent
 Configure miss: setpassent
