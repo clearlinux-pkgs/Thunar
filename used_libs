@@ -1,7 +1,6 @@
 libX11.so.6
 libatk-1.0.so.0
 libc.so.6
-libcairo-gobject.so.2
 libcairo.so.2
 libexif.so.12
 libexo-2.so.0
@@ -13,10 +12,8 @@ libgmodule-2.0.so.0
 libgobject-2.0.so.0
 libgtk-3.so.0
 libgudev-1.0.so.0
-libharfbuzz.so.0
 libnotify.so.4
 libpango-1.0.so.0
-libpangocairo-1.0.so.0
 libpcre2-8.so.0
 libxfce4kbd-private-3.so.0
 libxfce4panel-2.0.so.4
