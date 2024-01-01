@@ -6,10 +6,10 @@
 # autospec commit: c1050fe
 #
 Name     : Thunar
-Version  : 4.18.9
-Release  : 60
-URL      : https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.9.tar.bz2
-Source0  : https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.9.tar.bz2
+Version  : 4.18.10
+Release  : 61
+URL      : https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.10.tar.bz2
+Source0  : https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.10.tar.bz2
 Summary  : A library to create Thunar extensions
 Group    : Development/Tools
 License  : GPL-2.0 LGPL-2.0
@@ -146,10 +146,10 @@ services components for the Thunar package.
 
 
 %prep
-%setup -q -n thunar-4.18.9
-cd %{_builddir}/thunar-4.18.9
+%setup -q -n thunar-4.18.10
+cd %{_builddir}/thunar-4.18.10
 pushd ..
-cp -a thunar-4.18.9 buildavx2
+cp -a thunar-4.18.10 buildavx2
 popd
 
 %build
@@ -157,7 +157,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1703868887
+export SOURCE_DATE_EPOCH=1704143807
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -209,7 +209,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1703868887
+export SOURCE_DATE_EPOCH=1704143807
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Thunar
 cp %{_builddir}/thunar-%{version}/COPYING %{buildroot}/usr/share/package-licenses/Thunar/4cc77b90af91e615a64ae04893fdffa7939db84c || :
